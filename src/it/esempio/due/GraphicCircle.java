@@ -6,9 +6,7 @@ public class GraphicCircle extends Circle {
 	private Color fill;
 
 	public GraphicCircle(double x, double y, double r, Color outline, Color fill) {
-		this.x = x;
-		this.y = y;
-		this.r = r;
+		super(x, y, r); // invoco costruttore di Circle
 		this.outline = outline;
 		this.fill = fill;
 	}
